@@ -1,0 +1,73 @@
+#playerSelectionContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.playerMode {
+	padding: 0.5em;
+	margin: 0.5em;
+}
+.form-section {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	background-color: rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(4px);
+}
+#single-form-section {
+	display: none;
+}
+
+#multi-form-section {
+	display: none;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	width: 15em;
+	height: fit-content;
+
+	border: black 5px solid;
+	padding: 0.25em;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+}
+
+.form-title {
+	margin: 0.25em auto 1em auto;
+	text-align: center;
+}
+
+.add-player {
+	display: flex;
+	flex-direction: column;
+}
+
+.labels {
+	font-weight: 800;
+	margin-bottom: 0.25em;
+}
+
+.inputs {
+	margin-bottom: 1em;
+	font-size: 1rem;
+	height: 1.75rem;
+}
+
+.subBtn {
+	width: 6em;
+	height: 2em;
+	/* background-color: var(--clr-accent); */
+	color: black;
+	border-radius: 26px;
+	margin: 1em auto;
+	font-size: 1rem;
+	cursor: pointer;
+}
